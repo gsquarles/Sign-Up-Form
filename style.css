@@ -1,13 +1,19 @@
 body{
     display: flex;
     max-height: 100vh;
+    margin: 0px;
+}
+html, body{
+    margin: 0;
+    height: 100vh;
+    
 }
 .leftSide{
     height: 110vh;
     width: 25vw;
 }
 .leftSide>img{
-    height: 110vh;
+    height: 773px;
     width: 25vw;
     
 }

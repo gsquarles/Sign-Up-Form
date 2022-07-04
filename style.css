@@ -25,9 +25,9 @@ body{
 .logoWord{
     position: relative;
     text-align: center;
-    top: -95px;
+    top: -80px;
     color: white;
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'groovy';
     opacity: 1;
 
@@ -35,14 +35,15 @@ body{
 .logoName>img{
     position: relative;
     align-items: center;
-    left: 90px;
+    left: 0px;
     height: 70px;
     width: 30px;
     
 }
 
 form{
-    background-color: white;
+    background-color: #44008b;
+    opacity: 0.8;
     height: 100vh;
     width: 75vw;
 }
@@ -51,6 +52,7 @@ form{
     width: 75vw;
     height: 208px;
     top: -18px;
+    color: white;
 }
 .infoTop{
     font-size: 25px;
@@ -61,7 +63,7 @@ form{
 }
 .midInfo{
     display: flex;
-    background-color: gainsboro;
+    background-color: #9f45b0;
     position: relative;
     width: 75vw;
     height: 400px;
@@ -80,30 +82,6 @@ h1{
 input,label{
     display: block;
     font-size: 22px;
-}
-.fName{
-    position: relative;
-    
-}
-.lName{
-    position: relative;
-    
-}
-.email{
-    position: relative;
-    
-}
-.phone{
-    position: relative;
-    
-}
-.pass{
-    position: relative;
-    
-}
-.conPass{
-    position: relative;
-    
 }
 section>div{
     margin-bottom: 20px;
@@ -132,8 +110,15 @@ button{
 }
 a{
     position: relative;
-    color: grey;
+    color: white;
     left: 270px;
     bottom: 25px;
+}
+.clickLink{
+    background-color: #44008b;
+    height: 100px;
+}
+label{
+    color: white;
 }
 

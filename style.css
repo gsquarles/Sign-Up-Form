@@ -104,7 +104,8 @@ button{
     bottom: 15px;
     font-size: 30px;
     border-radius: 10px;
-    background-color: grey;
+    background-color: rgb(73, 68, 68);
+    box-shadow: 20px;
     color: purple;
 }
 a{

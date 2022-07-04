@@ -9,36 +9,35 @@ body{
 .leftSide>img{
     height: 110vh;
     width: 25vw;
-    position: relative;
+    
 }
 .logoName{
     background-color: black;
+    display: flex;
+    flex-flow: row wrap;
     opacity: 0.8;
     position: relative;
     top: -36.5rem;
-    height: 75px;
+    height: auto;
+    padding: 15px 0;
+    gap: 1vw;
+    justify-content: flex-start;
+    align-content: center;
 }
 @font-face {
     font-family: 'groovy';
     src: url(aAbstractGroovy.otf);
 }
 .logoWord{
-    position: relative;
-    text-align: center;
-    top: -80px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    position: absolute;
     font-family: 'groovy';
-    opacity: 1;
-
+    left: 100px;
+    top: 25px;
 }
-.logoName>img{
-    position: relative;
-    align-items: center;
-    left: 0px;
-    height: 70px;
-    width: 30px;
-    
+.astroPic{
+    height: 10vh;
 }
 
 form{

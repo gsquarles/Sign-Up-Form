@@ -4,8 +4,55 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <div class="leftSide">
+        <img src="galaxyBack.jpg" alt="Galaxy background">
+        <div class="logoName">
+            <img src="astroPic.jpg" alt="Astro Logo">
+            <p class="logoWord">GQ</p>
+        </div>
+    </div>
+
+    <form action="post">
+        <div class="upInfo">
+            <p class="infoTop">This is not a real online service! You know you need something like this in your life 
+                to help you realize your deepest dreams. Sign up now to get started.
+            </p>
+        </div>
+
+        <div class="midInfo">
+            <h1>Lets Do this</h1>
+            <div class="fName">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" maxlength="15" minlength="1">
+            </div>
+            <div class="lName">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" maxlength="15" minlength="1">
+            </div>
+            <div class="email">
+                <label for="mail">E-mail</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div class="phone">
+                <label for="phoneNum">Phone Number</label>
+                <input type="tel" name="phoneNum" id="phoneNum">
+            </div>
+            <div class="pass">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="conPass">
+                <label for="passFirm">Confirm Password</label>
+                <input type="password" name="passFirm" id="passFirm">
+            </div>
+        </div>
+        <button type="button">Create Account</button>
+        <label for="logIn">Already have an account?</label>
+        <a href="http://" id="logIn">Log in</a>
+    </form>
     
 </body>
 </html>

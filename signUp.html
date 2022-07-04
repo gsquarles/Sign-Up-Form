@@ -24,30 +24,31 @@
 
         <div class="midInfo">
             <h1>Lets Do this</h1>
-            <div class="fName">
+            <section><div class="fName">
                 <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName" maxlength="15" minlength="1">
+                <input type="text" name="firstName" id="firstName" maxlength="15" minlength="1" required>
             </div>
             <div class="lName">
                 <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName" maxlength="15" minlength="1">
+                <input type="text" name="lastName" id="lastName" maxlength="15" minlength="1" required>
             </div>
             <div class="email">
                 <label for="mail">E-mail</label>
-                <input type="email" name="mail" id="mail">
+                <input type="email" name="mail" id="mail" required>
             </div>
             <div class="phone">
                 <label for="phoneNum">Phone Number</label>
-                <input type="tel" name="phoneNum" id="phoneNum">
+                <input type="tel" name="phoneNum" id="phoneNum" required>
             </div>
             <div class="pass">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" required>
             </div>
             <div class="conPass">
                 <label for="passFirm">Confirm Password</label>
-                <input type="password" name="passFirm" id="passFirm">
-            </div>
+                <input type="password" name="passFirm" id="passFirm" required>
+            </div></section>
+            
         </div>
         <button type="button">Create Account</button>
         <label for="logIn">Already have an account?</label>

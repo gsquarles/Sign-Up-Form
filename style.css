@@ -1,12 +1,13 @@
 body{
     display: flex;
+    max-height: 100vh;
 }
 .leftSide{
-    height: 100vh;
+    height: 110vh;
     width: 25vw;
 }
 .leftSide>img{
-    height: 100vh;
+    height: 110vh;
     width: 25vw;
     position: relative;
 }
@@ -66,48 +67,55 @@ form{
     height: 400px;
     top: -40px;
 }
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 h1{
     position: absolute;
     left: 35px;
-    top: 15px;
+    top: -8px;
 }
 input,label{
     display: block;
-    font-size: 25px;
+    font-size: 22px;
 }
 .fName{
     position: relative;
-    top: 75px;
-    left: 74px;
+    
 }
 .lName{
     position: relative;
-    top: 75px;
-    left: 275px;
+    
 }
 .email{
     position: relative;
-    top: 175px;
-    right: 460px;
+    
 }
 .phone{
     position: relative;
-    top: 175px;
-    right: 260px;
+    
 }
 .pass{
     position: relative;
-    top: 275px;
-    right: 995px;
+    
 }
 .conPass{
     position: relative;
-    top: 275px;
-    right: 795px;
+    
+}
+section>div{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    min-width: 200px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 50px;
 }
 input{
-    border:2px solid #E5E7EB;
-    border-radius: 3px;
+    border:2px solid #5922b6;
+    border-radius: 8px;
 }
 input:focus{
     border: 2px solid blue;
@@ -128,6 +136,4 @@ a{
     left: 270px;
     bottom: 25px;
 }
-input:invalid{
-    border: 3px solid red;
-}
+
